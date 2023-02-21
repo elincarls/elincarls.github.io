@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
+    background-color: #212121;
     /* overflow: hidden; /* Hide scrollbars */
 }
 
@@ -34,8 +35,6 @@ iframe {
     justify-content: flex-end;
     padding: 1em;
     gap: 1em;
-
-    background-color: lightcyan;
 }
 
 .content {
@@ -47,11 +46,10 @@ iframe {
     padding: 2em 0; 
 }
 
-.project {
-    background-color: gold;
+.content img {
     width: 96vw;
     max-width: 80em;
-    aspect-ratio: 190/133;
+    aspect-ratio: 1624/1020;
     /* padding-top: 10%; */
 
     position: relative;
